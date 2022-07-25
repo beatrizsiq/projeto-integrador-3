@@ -1,0 +1,123 @@
+:root {
+  --navbar-height: 90px;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #4d908e;
+  height: var(--navbar-height);
+  font-family: Century Gothic;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 75px;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  padding: 0;
+  color: #f2f5f7;
+}
+
+.navbar-link,
+.nav-link:hover,
+.nav-link:visited,
+.nav-item {
+  color: #f2f5f7;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid #FFF;
+}
+
+/* --- */
+
+/* Gerais */
+body {
+  min-height: 100vh;
+  font-family: Century Gothic;
+  background-color: #ebf0f3;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  min-height: calc(100vh - var(--navbar-height));
+}
+
+p,
+li {
+  color: rgb(5, 4, 4);
+  font-size: 15px;
+}
+.descricao {
+  max-width: 1000px;
+  text-overflow: ellipsis;
+}
+
+.img-perfil {
+  border-radius: 40px;
+  width: 50px;
+  max-height: 75px;
+}
+
+.menu-empresas-citadas {
+  height: 70vh;
+}
+
+.titulo-empresas-citadas{
+  color: #f9844a;
+}
+
+/*Page Perfil */
+
+.btn-link, .btn-link:hover, .btn-link:visited{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.badge{
+  background-color: #90BE6D;
+}
+
+table, th, td {
+  border: 2px solid #fafafa;
+  border-collapse: collapse;
+  text-align: center;
+}
+thead{
+  color: #445e75;
+}
+
+.link-postagem, .link-postagem:hover, .link-postagem:visited {
+  text-decoration: none;
+  color: #90BE6D;
+}
+
+.link-ver-post-completo{
+  text-decoration: none;
+}
+
+.btn-nova-postagem, .btn-cadastrar-usuario, .btn-cadastrar-empresa, .btn-alterar-senha, .btn-alterar-usuario{
+  background-color: #f9844a;
+  color: #FFF;
+}
+.btn-nova-postagem:hover, .btn-cadastrar-usuario:hover, .btn-cadastrar-empresa:hover, .btn-alterar-senha:hover, .btn-alterar-usuario:hover{
+  background-color: #90BE6D;
+  color: #FFF;
+}
+
+#icone-empresa{
+  color: #43AA8B;
+}
